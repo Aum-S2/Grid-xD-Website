@@ -5,3 +5,95 @@
   --dark-color: #333;
   --max-width: 1100px;
 }
+
+.category {
+  --sports-color: #fdb009;
+  --ent-color: #a66bbe;
+  --tech-color: #009cff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Reem Kufi', sans-serif;
+  line-height: 1.45;
+  background-color: var(--light-color);
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Candal', cursive;
+  line-height: 1.28;
+}
+
+
+/* Utility */
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 2.22rem;
+  overflow: hidden;
+}
+
+/* Nav */
+#main-nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#main-nav .container {
+  display: grid;
+  grid-template-columns: 6fr 3fr 2fr;
+  padding: 1.2rem;
+  align-items: center;
+}
+
+#main-nav .logo {
+  width: 181px;
+}
+
+#main-nav ul {
+  justify-self: end;
+  display: flex;
+}
+
+#main-nav ul li a {
+  padding: 0.77rem;
+  font-weight: bold;
+}
+
+#main-nav ul li a.current {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+#main-nav ul li a:hover {
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+#main-nav .social {
+  justify-self: center;
+}
+
+#main-nav .social i {
+  color: #535353;
+}
