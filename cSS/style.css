@@ -97,3 +97,22 @@ h1, h2, h3, h4, h5, h6 {
 #main-nav .social i {
   color: #535353;
 }
+
+/* showcase */
+#showcase {
+  color: #fff;
+  background: #333;
+  padding: 2.2rem;
+  position: relative;
+}
+
+#showcase:before {
+  content: '';
+  background: url(../images/image_resources/featured.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
