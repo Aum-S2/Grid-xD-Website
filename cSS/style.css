@@ -73,6 +73,20 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.55rem 1.7rem;
 }
 
+.btn-light { background: var(--light-color) }
+.btn-primary { background: var(--primary-color) }
+.btn-secondary { background: var(--secondary-color) }
+
+.btn-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.88;
+}
+
 /* Nav */
 #main-nav {
   background: #fff;
