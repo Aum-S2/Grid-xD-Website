@@ -87,6 +87,26 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.88;
 }
 
+.card {
+  background: #fff;
+  padding: 1.2rem;
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-primary {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-secondary {
+  background: var(--dark-color);
+  color: #fff;
+}
+
 /* Nav */
 #main-nav {
   background: #fff;
@@ -167,4 +187,24 @@ h1, h2, h3, h4, h5, h6 {
 
 #showcase .showcase-content p {
   margin: 1.8rem 0;
+}
+
+/* home article */
+#home-articles .articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.2rem;
+}
+
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child  {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.9rem;
+  align-items: center;
+  grid-column: 1 / span 2;
+}
+
+#home-articles .articles-container > *:last-child {
+  grid-column: 2 / span 2;
 }
