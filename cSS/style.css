@@ -60,8 +60,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 0.58rem;
   text-transform: uppercase;
-  padding: 0.42rem 0.64rem;
-  border-radius: 25px;
+  padding: 0.57rem 0.4rem 0.4rem 0.4rem;
+  border-radius: 5px;
   margin-bottom: 0.5rem;
 }
 
@@ -263,6 +263,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.44rem;
 }
 
 /* footer */
