@@ -47,13 +47,10 @@
     grid-column: 1;
   }
 
-  #main-footer .footer-container > * {
+  #main-footer .footer-container > *:first-child,
+  #main-footer .footer-container > *:nth-child(2)
+   {
     border-bottom: 1px dotted #444;
     padding-bottom: 1rem;
-  }
-
-  #main-footer .footer-container > *:last-child,
-  #main-footer .footer-container > *:nth-child(3) {
-    border: none;
   }
 }
