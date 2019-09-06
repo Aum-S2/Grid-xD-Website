@@ -62,4 +62,8 @@
   .page-container > *:first-child {
     grid-row: 1;
   }
+
+  .l-heading {
+    font-size: 1.7rem;
+  }
 }
